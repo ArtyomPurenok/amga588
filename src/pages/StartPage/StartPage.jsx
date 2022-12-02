@@ -15,7 +15,7 @@ export const StartPage = () => {
     }
 
 
-    return <div>
+    return <div className="start-page">
         <Button  onClick={navigation} text={'FORM'}/>
     </div>
 }

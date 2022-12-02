@@ -1,0 +1,22 @@
+.start-page {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    & button {
+        font-size: 25px;
+        font-weight: 600;
+        width: 280px;
+        height: 90px;
+        border-color: transparent;
+        color: rgb(67, 74, 84);
+        background-color: rgb(27, 188, 155);
+
+        &:active {
+            color: rgb(226, 230, 255);
+            background-color: rgb(29, 158, 132);
+        }
+    }
+}
